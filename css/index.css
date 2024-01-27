@@ -1,0 +1,29 @@
+.rounded-img-custom {
+    border-radius: 35%; /* or any value between .25rem and 50% */
+}
+
+
+#carouselExampleIndicators {
+    overflow: hidden;
+    border-radius: 1rem; 
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 1rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 14px; /* Smaller text on small screens */
+}
+
+/* Larger styles for medium screens and up */
+@media (min-width: 768px) {
+    .navbar-nav .nav-link {
+      font-size: 20px; /* Larger text on larger screens */
+    }
+}
+
+.navbar-brand img {
+    height: 2em; /* Image height is slightly less than the navbar height */
+}

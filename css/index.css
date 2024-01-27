@@ -13,17 +13,45 @@
     border-radius: 1rem;
 }
 
-.navbar-nav .nav-link {
-    font-size: 14px; /* Smaller text on small screens */
+.navbar-brand img {
+    height: 2em; /* Image height is slightly less than the navbar height */
 }
 
-/* Larger styles for medium screens and up */
-@media (min-width: 768px) {
-    .navbar-nav .nav-link {
-      font-size: 20px; /* Larger text on larger screens */
+html {
+    font-size: 18px;
+}
+
+#downloadButton {
+    border: solid 1px #70dee6;
+    border-radius: 1rem;
+}
+
+/*  styles for medium screens and up */
+@media (max-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+    nav {
+        font-size: 0.7rem;
     }
 }
 
-.navbar-brand img {
-    height: 2em; /* Image height is slightly less than the navbar height */
+/*  styles for medium screens and up */
+@media (min-width: 768px) {
+    html {
+        font-size: 24px;
+    }
+    nav {
+        font-size: 0.7rem;
+    }
+}
+
+/*  styles for medium screens and up */
+@media (min-width: 992px) {
+    html {
+        font-size: 26px;
+    }
+    nav {
+        font-size: 0.7rem;
+    }
 }

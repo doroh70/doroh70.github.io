@@ -1,9 +1,18 @@
-// toggle-collapse.js
-$(document).ready(function () {
-    $('#collapseAboutTab').on('show.bs.collapse', function () {
-      $('#collapseInterestsTab').collapse('hide');
+document.addEventListener('DOMContentLoaded', function () {
+    var collapseAbout = document.getElementById('collapseAboutTab');
+    var collapseInterests = document.getElementById('collapseInterestsTab');
+
+    collapseAbout.addEventListener('show.bs.collapse', function () {
+        var bsCollapseInterests = new bootstrap.Collapse(collapseInterests, {
+            toggle: false
+        });
+        bsCollapseInterests.hide();
     });
-    $('#collapseInterestsTab').on('show.bs.collapse', function () {
-      $('#collapseAboutTab').collapse('hide');
+
+    collapseInterests.addEventListener('show.bs.collapse', function () {
+        var bsCollapseAbout = new bootstrap.Collapse(collapseAbout, {
+            toggle: false
+        });
+        bsCollapseAbout.hide();
     });
 });

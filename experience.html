@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/png" href="images/OO.png">
+    <title>Oghenemaro Portfolio</title>
+</head>
+
+<body>
+<!-- Navbar Component -->
+<nav class="bg-light navbar sticky-top navbar-expand-md ">
+
+    <span class="border border-dark rounded-circle mx-2">
+        <a class="navbar-brand mx-auto" href="index.html">
+            <img src="images/OO.png" alt="Oghenemaro Logo">
+        </a>
+    </span>
+    <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-1">
+            <a class="nav-link" href="index.html">About me</a>
+            </li>
+            <li class="nav-item mx-1">
+            <a class="nav-link active" aria-current="page" href="experience.html">Experience <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item mx-1">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item mx-1">
+            <a class="nav-link" href="contactMe.html">Contact me</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav me-2" id="downloadButton">
+            <li class="nav-item">
+                <a class="nav-link text-primary" href="docs/Oghenemaro_Oroh.pdf">Download resume</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- End of navbar component -->
+
+    <!-- Start of container -->
+    <div class="container-fluid my-3 mx-2">
+
+        <div class="row">
+            <div class="col-12 col-xl-8 mx-auto my-3">
+                <div class="accordion" id="accordionExperiencePanels">
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" id="accordionButton" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <span class="me-auto">Web Accessibility Specialist, ApexCalculus</span>
+                            <span class="badge bg-secondary">Sep 2023 — Dec 2023</span>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                        <strong>Lethbridge, AB.</strong> 
+                        <p>Working under Dr. Sean Fitzpatrick to provide accessibility features for the APEX Calculus textbook.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            <span class="me-auto">Software Dev Engineer Intern, Amazon</span>
+                            <span class="badge bg-secondary">May 2023 — Aug 2023</span>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <strong>Victoria, BC.</strong> 
+                        <ul>
+                            <li>Developed cross-domain tracking widget, enabling order monitoring on AbeBooks.com. Ensured accessibility with web-accessible features from project inception.</li>
+                            <li>Assumed Full-stack responsibilities with a focus on React and VM templates for front-end development.</li>
+                            <li>Managed and updated backend servlets using Java and Apache Tomcat.</li>
+                            <li>Utilized AWS CDK to define cloud infrastructure as code, streamlining the provisioning and management of AWS resources.</li>
+                            <li>Used Jenkins for CI/CD pipeline and leveraged Git for version control.</li>
+                            <li>Resolved varied customer-facing tickets, enhancing user experience through agile methodologies.</li>
+                        </ul>                          
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <span class="me-auto">Student Tutor, The University of Lethbridge</span>
+                            <span class="badge bg-secondary">Feb 2023 — May 2023</span>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                        <strong>Lethbridge, AB.</strong> 
+                        <p>Provided tutoring services for students in the Computer Science department.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            <span class="me-auto">Automation Tools Developer Co-op, Fortra</span>
+                            <span class="badge bg-secondary">Sep 2022 — Dec 2022</span>
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong>Ottawa, ON.</strong>
+                            <ul>
+                                <li>Worked closely with software developers and test engineers to develop and maintain automation code using Java, JUnit, and Selenium.</li>
+                                <li>Tested, executed, and oversaw execution of automation code on multiple operating systems, in physical, virtual, and cloud environments.</li>
+                                <li>Leveraged coding, networking, and general systems knowledge to triage and resolve software and environmental failures.</li>
+                                <li>Participated in the full development life cycle and Agile (Kanban) process.</li>
+                                <li>Followed established coding standards and attended multiple design and code reviews.</li>
+                                <li>Submitted and resolved defects and stories.</li>
+                                <li>Ramped up on additional software, technology, languages, and tools, as required.</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

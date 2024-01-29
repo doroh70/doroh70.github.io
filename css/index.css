@@ -3,15 +3,24 @@
 }
 
 
-#carouselExampleIndicators {
+#carouselInterests {
     overflow: hidden;
     border-radius: 1rem; 
+    border: 1px solid rgba(0, 0, 0, 0.299);
 }
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 1rem;
 }
+
+/* Border for carousel control buttons */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 50%; /* Optional: makes the buttons circular */
+}
+
 
 .navbar-brand img {
     height: 2em; /* Image height is slightly less than the navbar height */

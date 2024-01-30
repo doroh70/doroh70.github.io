@@ -1,3 +1,9 @@
+body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 .rounded-img-custom {
     border-radius: 35%; /* or any value between .25rem and 50% */
 }

@@ -46,5 +46,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
       })
       .catch(error => console.error('Error fetching repos:', error));
-  });
+
+    var typedAbout = document.querySelector('h1');
+
+    var typewriter = new Typewriter(typedAbout, {
+    loop: false,
+    delay: 100,
+    });
+
+    
+    typewriter
+    .typeString('Cool Projects')
+    .pauseFor(300)
+    .start();
+});
   

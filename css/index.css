@@ -3,7 +3,6 @@ body, html {
     overflow-x: hidden;
 }
 
-
 .rounded-img-custom {
     border-radius: 50%; /* or any value between .25rem and 50% */
 }

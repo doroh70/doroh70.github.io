@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
             card.innerHTML = `
                 <div class="card-body">
                   <h5 class="card-title">${repo.name}</h5>
-                  <p class="card-text">${repo.description}</p>
-                  <p><strong>Primary Language:</strong> ${repo.language}</p>
+                  <p class="card-text">${repo.description ? repo.description : ''}</p>
+                  <p>${repo.language ? `<strong>Primary Language:</strong> ${repo.language}` : ''}</p>
                   <a href="${repo.html_url}" target="_blank">View on GitHub</a>
                 </div>
                 <div class="card-footer">
